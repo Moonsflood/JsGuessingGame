@@ -1,6 +1,6 @@
 'use strict';
 
-//Java Script Guessing Game 
+//Java Script Guessing Game
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
@@ -62,5 +62,3 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('body').style.backgroundColor = '#222';
   document.querySelector('.number').style.width = '15rem';
 });
-
-
